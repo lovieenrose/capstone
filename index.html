@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<!-- Bootstrap Meta Tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@600&family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+  </head>
+  <body>
+
+ <!--Navbar Section -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+<!-- Landing Page -->
+    <header class="header">
+      <h1>About Me!</h1>
+      <p class="header-subtitle">Web Developer</p>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <img src="./images/profile-pic.jpg" alt="Profile Picture">
+        </div>
+        <div class="col-6">
+          <h2>Hello, I'm Belle Acedillo</h2>
+          <p>Hey there! I'm thrilled you stumbled upon my portfolio. My name is Christabelle Jaynee S.C. Acedillo and I am an aspiring Web Developer based in the Philippines. I have a passion for creating clean, elegant and intuitive designs that are both visually appealing and user-friendly. I love to work on exciting projects that challenge me to push the limits of my creativity and technical skills. When I'm not designing, you can find me curled up at home with my adorable cat, writing or binge-watching interesting documentary shows.</p>
+          <h3>Skills:</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+<!-- Gallery Section -->
+<div class="divider">
+<section id="gallery-header">
+	<h2>Gallery</h2>
+	<p>My Hobbies!</p>
+	</section>
+	<section class="gallery">
+		<div class="image-container">
+			<img src="./images/writing1.jpg" id="image1">
+			<p id="caption1">Writing</p>
+			<p id="description1">
+		</div>
+		<div class="image-container">
+			<img src="./images/watching2.jpg" id="image2">
+			<p id="caption2">Watching Documenteries</p>
+		</div>
+		<div class="image-container">
+			<img src="./images/sleeping3.jpg" id="image3">
+			<p id="caption3">Sleeping</p>
+		</div>
+	</div>
+	</section>
+
+<!--Contact Page -->
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 personal-info">
+        <h2>Personal Information</h2>
+        <div class="personal-info-container">
+          <img src="https://images.pexels.com/photos/1022158/pexels-photo-1022158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="cat" width="150" height="150" class="personal-info-image">
+          <div class="personal-info-details">
+            <h3>Christabelle Jaynee S.C. Acedillo</h3>
+            <p class="email"><i class="fas fa-envelope"></i> belleacedillo@gmail.com</p>
+            <p class="phone"><i class="fas fa-phone"></i> (+63) 905 242 1762</p>
+            <p class="address"><i class="fas fa-map-marker-alt"></i> Philippines</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 contact-form">
+        <h2>Send us a message!</h2>
+        <form action="submit.php" method="POST">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" class="form-control" id="phone" name="phone" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="send" class="btn btn-primary">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Stretch Goals -->
+<section id="tools">
+  <h2>Tools Learned</h2>
+  <div class="tool">
+    <div class="tool-logo html"></div>
+    <span class="tool-name">HTML</span>
+  </div>
+  <div class="tool">
+    <div class="tool-logo css"></div>
+    <span class="tool-name">CSS</span>
+  </div>
+  <div class="tool">
+    <div class="tool-logo js"></div>
+    <span class="tool-name">JavaScript</span>
+  </div>
+    <div class="tool">
+    <div class="tool-logo bs"></div>
+    <span class="tool-name">Bootstrap</span>
+  </div>
+  <h3>Stretch Goals</h3>
+  <div class="tool">
+    <div class="tool-logo python"></div>
+    <span class="tool-name">Python</span>
+  </div>
+  <div class="tool">
+    <div class="tool-logo react"></div>
+    <span class="tool-name">React</span>
+  </div>
+</section>
+
+  </body>
+</html>
